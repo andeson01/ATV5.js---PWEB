@@ -1,9 +1,8 @@
-let dolar = 1;
-let reais = 5.81;
+let Cdolar = 6.00;
 
 let quantreal = prompt('Digite quantos reais você quer transformar em dólares: ')
 quantreal = parseFloat(quantreal);
 
-conversão = reais / quantreal;
+conversão = quantreal / Cdolar;
 
 alert(quantreal + ' reais equivalem à: ' + conversão + ' dólares');
